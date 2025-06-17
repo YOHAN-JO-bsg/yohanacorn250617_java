@@ -22,7 +22,7 @@ public class MainClass_01 {
 	public static void main(String[] args) {
 		// 정수형 변수 선언하고 값 대입하기
 		byte iByte = 10;
-		short IShort = 500;
+		short iShort = 500;
 		int iInt = 1000;
 		long iLong = 10000;
 		
