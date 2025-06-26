@@ -7,4 +7,5 @@ public abstract class Weapon {
 	}
 	// 공격하는 메소드
 	public abstract void attack();
+	
 }
