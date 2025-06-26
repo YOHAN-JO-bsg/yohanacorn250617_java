@@ -20,6 +20,10 @@ public class MainClass07 {
 				
 		useWeapon(w1);
 		
+		
+		
+		
+		
 		useWeapon(new Weapon() {
 			@Override
 			public void attack() {
