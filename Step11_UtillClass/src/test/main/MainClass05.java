@@ -1,3 +1,10 @@
+
+// List<MemberDto>를 이용한 객체 리스트 처리와 출력 방법
+// 1. 사용자 정의 클래스 객체를 리스트에 저장하기
+// 2. 확장 for문을 이용한 출력
+// 3. forEach() 메서드를 이용한 람다식 출력
+
+
 package test.main;
 
 import java.util.ArrayList;

@@ -1,3 +1,6 @@
+
+// forEach()와 Consumer 인터페이스, 람다식의 다양한 표현 방법
+
 package test.main;
 
 import java.util.ArrayList;
