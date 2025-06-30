@@ -27,8 +27,12 @@ public class MyFrame extends JFrame {
 		setLayout(layout);
 		// JButton 객체 생성
 		JButton btn1 = new JButton("버튼1");
+		JButton btn2 = new JButton("버튼2");
+		JButton btn3 = new JButton("버튼3");
 		// 프레임의 add() 메소드 호출하면서 JButton 객체의 참조값을 전달하면 프레임에 버튼이 배치된다.
 		add(btn1);
+		add(btn2);
+		add(btn3);
 
 		// 화면상에 실제 보이도록 한다.
 		setVisible(true);
