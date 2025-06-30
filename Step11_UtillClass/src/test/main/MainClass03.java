@@ -1,3 +1,6 @@
+
+// Scanner와 ArrayList를 이용한 문자열 입력 및 출력
+
 package test.main;
 
 import java.util.ArrayList;
