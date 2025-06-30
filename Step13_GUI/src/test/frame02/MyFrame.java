@@ -1,6 +1,8 @@
 package test.frame02;
 
 import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -29,31 +31,38 @@ public class MyFrame extends JFrame {
 		JButton btn1 = new JButton("버튼1");
 		JButton btn2 = new JButton("버튼2");
 		JButton btn3 = new JButton("버튼3");
+
 		// 프레임의 add() 메소드 호출하면서 JButton 객체의 참조값을 전달하면 프레임에 버튼이 배치된다.
 		add(btn1);
 		add(btn2);
 		add(btn3);
 
+		// 각 버튼에 클릭 이벤트 리스너 등록
+		btn1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("버튼1을 눌렀네요!");
+			}
+		});
+		btn2.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("버튼2를 눌렀네요!");
+			}
+		});
+		btn3.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("버튼3을 눌렀네요!");
+			}
+		});
+
 		// 화면상에 실제 보이도록 한다.
 		setVisible(true);
 	}
-	
+
 	// main 메소드 만들기
 	public static void main(String[] args) {
 		new MyFrame();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
